@@ -45,9 +45,9 @@
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
+#include "tmr2.h"
 #include "interrupt_manager.h"
 #include "exceptions.h"
-#include "tmr2.h"
 
 void SYSTEM_Initialize(void)
 {

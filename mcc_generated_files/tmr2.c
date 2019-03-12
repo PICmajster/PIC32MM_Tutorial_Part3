@@ -90,8 +90,8 @@ static TMR_OBJ tmr2_obj;
 
 void TMR2_Initialize (void)
 {
-    // Period = 0.005 s; Frequency = 24000000 Hz; PR2 15000; 
-    PR2 = 0x3A98;
+    // Period = 0.01 s; Frequency = 24000000 Hz; PR2 30000; 
+    PR2 = 0x7530;
     //  TCKPS 1:8; T32 16 Bit; TCS PBCLK; SIDL disabled; TGATE disabled; ON enabled; 
     T2CON = 0x8030; 
 
